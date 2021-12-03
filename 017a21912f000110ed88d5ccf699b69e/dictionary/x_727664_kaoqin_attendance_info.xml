@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="attendance info" max_length="40" name="x_727664_kaoqin_attendance_info" sizeclass="5" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="备注" max_length="1024" name="comment" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:new GlideDate().getValue();" label="日期" max_length="40" name="date" type="glide_date"/>
+        <element label="有与密切接触者情况" max_length="400" name="is_close_with_patient" type="string"/>
+        <element choice="1" default="Y" label="健康码是否异常" mandatory="true" max_length="40" name="is_code_abnomal" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="是" sequence="0" value="Y"/>
+                <element inactive_on_update="false" label="否" sequence="1" value="N"/>
+            </choice>
+        </element>
+        <element choice="1" default="N" label="是否确诊或隔离" max_length="40" name="is_comfirmed_diagnosis" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="是" sequence="0" value="Y"/>
+                <element inactive_on_update="false" label="否" sequence="1" value="N"/>
+            </choice>
+        </element>
+        <element choice="1" default="N" label="返回陕西是否核酸检测" max_length="40" name="is_detected_when_return_shanxi" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="是" sequence="0" value="Y"/>
+                <element inactive_on_update="false" label="否" sequence="1" value="N"/>
+            </choice>
+        </element>
+        <element choice="1" label="健康与否" mandatory="true" max_length="40" name="is_ferver" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="是" sequence="0" value="Y"/>
+                <element inactive_on_update="false" label="否" sequence="1" value="N"/>
+            </choice>
+        </element>
+        <element choice="1" default="N" label="是否离开陕西" max_length="40" name="is_out_shanxi" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="是" sequence="0" value="Y"/>
+                <element inactive_on_update="false" label="否" sequence="1" value="N"/>
+            </choice>
+        </element>
+        <element choice="1" default="N" label="是否离开西安" max_length="40" name="is_out_xi_an" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="是" sequence="0" value="Y"/>
+                <element inactive_on_update="false" label="否" sequence="1" value="N"/>
+            </choice>
+        </element>
+        <element choice="1" default="no" label="是否访问过中高风险地区" max_length="400" name="is_visited_high_middle_area" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="是" sequence="0" value="yes"/>
+                <element inactive_on_update="false" label="否" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="UserEmail" max_length="40" name="useremail" type="string"/>
+        <element label="姓名" max_length="64" name="usernm" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="User Id" max_length="40" name="user_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Emp Nm" max_length="40" name="u_emp_no" type="string"/>
+        <element attributes="encode_utf8=false" label="系统用户" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+        <element choice="1" label="星期" max_length="40" name="week" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monday" language="zh" value="星期一"/>
+                <element inactive_on_update="false" label="Tuesday" language="zh" value="星期二"/>
+                <element inactive_on_update="false" label="星期一" sequence="10" value="星期一"/>
+                <element inactive_on_update="false" label="星期二" sequence="20" value="星期二"/>
+                <element inactive_on_update="false" label="星期三" sequence="30" value="星期三"/>
+                <element inactive_on_update="false" label="星期四" sequence="40" value="星期四"/>
+                <element inactive_on_update="false" label="星期五" sequence="50" value="星期五"/>
+                <element inactive_on_update="false" label="星期六" sequence="60" value="星期六"/>
+                <element inactive_on_update="false" label="星期天" sequence="70" value="星期天"/>
+            </choice>
+        </element>
+        <index name="index">
+            <element name="u_reference_1"/>
+        </index>
+    </element>
+</database>

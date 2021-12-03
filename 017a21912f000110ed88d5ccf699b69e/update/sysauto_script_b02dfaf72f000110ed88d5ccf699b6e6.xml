@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <business_calendar/>
+        <condition><![CDATA[var answer = true;
+var rightNow = new GlideDateTime();
+var year = rightNow.getYearLocalTime();
+var month = rightNow.getMonthLocalTime();
+var day = rightNow.getDayOfMonthLocalTime();
+var dayOfWeek = rightNow.getDayOfWeekLocalTime();
+if(dayOfWeek == 6 || dayOfWeek == 7){
+	answer = false;
+}
+
+answer;]]></condition>
+        <conditional>true</conditional>
+        <entered_time/>
+        <name>Find the person who didn't clock in today </name>
+        <offset/>
+        <offset_type>0</offset_type>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-12-03 01:06:38</run_start>
+        <run_time>1970-01-01 16:30:00</run_time>
+        <run_type>daily</run_type>
+        <script><![CDATA[var notClockIn = new GlideRecord('x_727664_kaoqin_attendance_info');
+notClockIn.addQuery('date','=',year+'-'+month+'-'+day);
+notClockIn.addQuery('is_ferver','=','');
+ 
+notClockIn.query();
+
+while(notClockIn.next()){
+  gs.info("The person who didn't clock in today  = " + notClockIn.usernm);
+  gs.eventQueue('x_727664_kaoqin.didNotClockInToday',notClockIn,notClockIn.usernm,gs.getUserName());
+}
+]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-03 01:18:29</sys_created_on>
+        <sys_id>b02dfaf72f000110ed88d5ccf699b6e6</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Find the person who didn't clock in today </sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_update_name>sysauto_script_b02dfaf72f000110ed88d5ccf699b6e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-03 07:23:48</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

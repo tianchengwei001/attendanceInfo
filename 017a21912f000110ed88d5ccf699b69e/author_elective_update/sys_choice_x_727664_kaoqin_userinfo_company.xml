@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="company" table="x_727664_kaoqin_userinfo" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>company</element>
+            <name>x_727664_kaoqin_userinfo</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-25 05:30:10</sys_created_on>
+            <sys_id>83bca2552fc00110ed88d5ccf699b6f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>company</sys_name>
+            <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+            <sys_update_name>sys_choice_x_727664_kaoqin_userinfo_company</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-25 05:30:10</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>beijng</label>
+            <language>en</language>
+            <name>x_727664_kaoqin_userinfo</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-25 05:30:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53bc2e552fc00110ed88d5ccf699b6ed</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-25 05:37:59</sys_updated_on>
+            <value>beijng</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>company</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>xian</label>
+            <language>en</language>
+            <name>x_727664_kaoqin_userinfo</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-25 05:30:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0bcaa552fc00110ed88d5ccf699b64d</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-25 05:37:50</sys_updated_on>
+            <value>xian</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

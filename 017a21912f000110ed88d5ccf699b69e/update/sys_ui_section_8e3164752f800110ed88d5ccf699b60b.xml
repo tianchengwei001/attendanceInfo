@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="8e3164752f800110ed88d5ccf699b60b" sys_domain="global" table="x_727664_kaoqin_attendance_info" version="3" view="Admin">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-26 08:37:35</sys_created_on>
+            <sys_id>c63164752f800110ed88d5ccf699b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="823164752f800110ed88d5ccf699b607">8e3164752f800110ed88d5ccf699b60b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-26 08:37:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_emp_no</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-26 08:37:35</sys_created_on>
+            <sys_id>4a3164752f800110ed88d5ccf699b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="823164752f800110ed88d5ccf699b607">8e3164752f800110ed88d5ccf699b60b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-26 08:37:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-26 08:37:35</sys_created_on>
+            <sys_id>ca3164752f800110ed88d5ccf699b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="823164752f800110ed88d5ccf699b607">8e3164752f800110ed88d5ccf699b60b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-26 08:37:35</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>date</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-26 08:37:35</sys_created_on>
+            <sys_id>4e3164752f800110ed88d5ccf699b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="823164752f800110ed88d5ccf699b607">8e3164752f800110ed88d5ccf699b60b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-26 08:37:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>week</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-26 08:37:35</sys_created_on>
+            <sys_id>ce3164752f800110ed88d5ccf699b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="823164752f800110ed88d5ccf699b607">8e3164752f800110ed88d5ccf699b60b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-26 08:37:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-26 08:37:35</sys_created_on>
+            <sys_id>423164752f800110ed88d5ccf699b64e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="823164752f800110ed88d5ccf699b607">8e3164752f800110ed88d5ccf699b60b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-26 08:37:35</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>clock_yn</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-26 08:37:35</sys_created_on>
+            <sys_id>c23164752f800110ed88d5ccf699b64e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="823164752f800110ed88d5ccf699b607">8e3164752f800110ed88d5ccf699b60b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-26 08:37:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comment</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-26 08:37:35</sys_created_on>
+            <sys_id>463164752f800110ed88d5ccf699b64e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="823164752f800110ed88d5ccf699b607">8e3164752f800110ed88d5ccf699b60b</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-26 08:37:35</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_727664_kaoqin_attendance_info</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-26 08:37:35</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8e3164752f800110ed88d5ccf699b60b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_727664_kaoqin_attendance_info</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+            <sys_update_name>sys_ui_section_8e3164752f800110ed88d5ccf699b60b</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-26 08:37:35</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Admin" name="Admin">823164752f800110ed88d5ccf699b607</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

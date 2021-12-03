@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA Attendance Dashboard - New Tab">9431b85f2f000110ed88d5ccf699b6bf</grid_canvas>
+        <height>14</height>
+        <portal_widget display_value="Created 2021-12-01 09:59:41">a6163c532f400110ed88d5ccf699b689</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-01 01:59:41</sys_created_on>
+        <sys_id>22163c532f400110ed88d5ccf699b68b</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>9431b85f2f000110ed88d5ccf699b6bf</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_22163c532f400110ed88d5ccf699b68b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-01 02:00:38</sys_updated_on>
+        <width>12</width>
+    </sys_grid_canvas_pane>
+</record_update>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="DELETE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description>test</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_727664_kaoqin.Attendence user</name>
+        <requires_subscription>-1</requires_subscription>
+        <scoped_admin>false</scoped_admin>
+        <suffix>Attendence user</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-03 05:43:01</sys_created_on>
+        <sys_id>2e4cb7bf2fc00110ed88d5ccf699b6fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_727664_kaoqin.Attendence user</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_update_name>sys_user_role_2e4cb7bf2fc00110ed88d5ccf699b6fa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-03 05:43:01</sys_updated_on>
+    </sys_user_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</application>
+        <file_path/>
+        <instance_id>8ac64e6bdb44b3402f68c59705961978</instance_id>
+        <instance_name>dev74744</instance_name>
+        <name>sys_user_role_2e4cb7bf2fc00110ed88d5ccf699b6fa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role"><sys_user_role action="INSERT_OR_UPDATE"><assignable_by/><can_delegate>true</can_delegate><description>test</description><elevated_privilege>false</elevated_privilege><grantable>true</grantable><includes_roles/><name>x_727664_kaoqin.Attendence user</name><requires_subscription>-1</requires_subscription><scoped_admin>false</scoped_admin><suffix>Attendence user</suffix><sys_class_name>sys_user_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-03 05:43:01</sys_created_on><sys_id>2e4cb7bf2fc00110ed88d5ccf699b6fa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_727664_kaoqin.Attendence user</sys_name><sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package><sys_policy/><sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope><sys_update_name>sys_user_role_2e4cb7bf2fc00110ed88d5ccf699b6fa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-03 05:43:01</sys_updated_on></sys_user_role></record_update>]]></payload>
+        <payload_hash>-316224135</payload_hash>
+        <record_name>x_727664_kaoqin.Attendence user</record_name>
+        <reverted_from/>
+        <source>557a21912f000110ed88d5ccf699b6a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-03 05:43:01</sys_created_on>
+        <sys_id>e96c3bbf2fc00110ed88d5ccf699b6db</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d7ed13d950000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-03 05:43:01</sys_updated_on>
+        <type>Role</type>
+        <update_guid>256c3bbfb6c0011090652c38b83c49db</update_guid>
+        <update_guid_history>256c3bbfb6c0011090652c38b83c49db:-316224135</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_727664_kaoqin.Attendence user">da0f73732f040110ed88d5ccf699b6e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-03 05:54:33</sys_created_on>
+        <sys_db_object display_value="" name="sys_user_role">sys_user_role</sys_db_object>
+        <sys_id>11d57a5a62d14e5faecdcf827a8374a9</sys_id>
+        <sys_metadata>2e4cb7bf2fc00110ed88d5ccf699b6fa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_727664_kaoqin.Attendence user</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_scope_delete display_value="">01b663fcdd6f4dc08e125e4f852f9000</sys_scope_delete>
+        <sys_update_name>sys_user_role_2e4cb7bf2fc00110ed88d5ccf699b6fa</sys_update_name>
+        <sys_update_version display_value="sys_user_role_2e4cb7bf2fc00110ed88d5ccf699b6fa">e96c3bbf2fc00110ed88d5ccf699b6db</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-03 05:54:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

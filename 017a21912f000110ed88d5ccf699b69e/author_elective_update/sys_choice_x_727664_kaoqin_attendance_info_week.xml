@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="week" table="x_727664_kaoqin_attendance_info" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>week</element>
+            <name>x_727664_kaoqin_attendance_info</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-25 01:33:12</sys_created_on>
+            <sys_id>b376f51d2f000110ed88d5ccf699b6e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>week</sys_name>
+            <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+            <sys_update_name>sys_choice_x_727664_kaoqin_attendance_info_week</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-25 01:33:12</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monday</label>
+            <language>zh</language>
+            <name>x_727664_kaoqin_attendance_info</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-25 01:46:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5069b1dd2f000110ed88d5ccf699b625</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-25 01:46:22</sys_updated_on>
+            <value>星期一</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tuesday</label>
+            <language>zh</language>
+            <name>x_727664_kaoqin_attendance_info</name>
+            <sequence/>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-25 01:47:20</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f5a975dd2f000110ed88d5ccf699b679</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-25 01:47:42</sys_updated_on>
+            <value>星期二</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>星期一</label>
+            <language>en</language>
+            <name>x_727664_kaoqin_attendance_info</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 02:23:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65ce83b72f400110ed88d5ccf699b681</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 02:23:41</sys_updated_on>
+            <value>星期一</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>星期二</label>
+            <language>en</language>
+            <name>x_727664_kaoqin_attendance_info</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 02:23:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39ce4bb72f400110ed88d5ccf699b645</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 02:23:43</sys_updated_on>
+            <value>星期二</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>星期三</label>
+            <language>en</language>
+            <name>x_727664_kaoqin_attendance_info</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 02:23:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ace4bb72f400110ed88d5ccf699b621</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 02:23:43</sys_updated_on>
+            <value>星期三</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>星期四</label>
+            <language>en</language>
+            <name>x_727664_kaoqin_attendance_info</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 02:23:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86ce4bb72f400110ed88d5ccf699b649</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 02:23:44</sys_updated_on>
+            <value>星期四</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>星期五</label>
+            <language>en</language>
+            <name>x_727664_kaoqin_attendance_info</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 02:23:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86ce4bb72f400110ed88d5ccf699b625</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 02:23:44</sys_updated_on>
+            <value>星期五</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>星期六</label>
+            <language>en</language>
+            <name>x_727664_kaoqin_attendance_info</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 02:23:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16ce4bb72f400110ed88d5ccf699b64d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 02:23:44</sys_updated_on>
+            <value>星期六</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>week</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>星期天</label>
+            <language>en</language>
+            <name>x_727664_kaoqin_attendance_info</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 02:23:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16ce4bb72f400110ed88d5ccf699b629</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 02:23:44</sys_updated_on>
+            <value>星期天</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

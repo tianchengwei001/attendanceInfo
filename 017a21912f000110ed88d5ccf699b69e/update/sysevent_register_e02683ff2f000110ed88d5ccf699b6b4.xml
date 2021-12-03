@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <caller_access/>
+        <description>当天每个未打卡的员工将会触发这个事件</description>
+        <event_name>x_727664_kaoqin.didNotClockInToday</event_name>
+        <fired_by>Scheduled Script Execution - Find the person who didn't clock in today </fired_by>
+        <queue/>
+        <suffix>didNotClockInToday</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-03 01:50:15</sys_created_on>
+        <sys_id>e02683ff2f000110ed88d5ccf699b6b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_727664_kaoqin.didNotClockInToday</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_update_name>sysevent_register_e02683ff2f000110ed88d5ccf699b6b4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-03 01:50:15</sys_updated_on>
+        <table>x_727664_kaoqin_attendance_info</table>
+    </sysevent_register>
+</record_update>

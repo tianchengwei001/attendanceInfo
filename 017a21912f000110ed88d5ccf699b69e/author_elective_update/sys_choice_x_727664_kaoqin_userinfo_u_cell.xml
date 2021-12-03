@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_cell" table="x_727664_kaoqin_userinfo" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_cell</element>
+            <name>x_727664_kaoqin_userinfo</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 05:39:09</sys_created_on>
+            <sys_id>7c8bb37f2fc00110ed88d5ccf699b674</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_cell</sys_name>
+            <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+            <sys_update_name>sys_choice_x_727664_kaoqin_userinfo_u_cell</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 05:39:09</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cell</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>part1</label>
+            <language>en</language>
+            <name>x_727664_kaoqin_userinfo</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 05:39:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>348bb37f2fc00110ed88d5ccf699b674</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 05:39:09</sys_updated_on>
+            <value>part1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cell</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>part2</label>
+            <language>en</language>
+            <name>x_727664_kaoqin_userinfo</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 05:39:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>348bb37f2fc00110ed88d5ccf699b676</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 05:39:09</sys_updated_on>
+            <value>part2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_cell</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>part3</label>
+            <language>en</language>
+            <name>x_727664_kaoqin_userinfo</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-03 05:39:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b48bb37f2fc00110ed88d5ccf699b677</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-03 05:39:09</sys_updated_on>
+            <value>part3</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

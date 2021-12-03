@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="DELETE">
+        <grid_canvas display_value="PA Attendance Dashboard - New Tab">9431b85f2f000110ed88d5ccf699b6bf</grid_canvas>
+        <height>14</height>
+        <portal_widget display_value="Created 2021-11-30 17:46:03">faf230df2f000110ed88d5ccf699b6e4</portal_widget>
+        <posx>0</posx>
+        <posy>0</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-01 01:46:03</sys_created_on>
+        <sys_id>76f230df2f000110ed88d5ccf699b6e6</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>9431b85f2f000110ed88d5ccf699b6bf</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_76f230df2f000110ed88d5ccf699b6e6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-01 01:59:22</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</application>
+        <file_path/>
+        <instance_id>8ac64e6bdb44b3402f68c59705961978</instance_id>
+        <instance_name>dev74744</instance_name>
+        <name>sys_grid_canvas_pane_76f230df2f000110ed88d5ccf699b6e6</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane"><sys_grid_canvas_pane action="INSERT_OR_UPDATE"><grid_canvas display_value="PA Attendance Dashboard - New Tab">9431b85f2f000110ed88d5ccf699b6bf</grid_canvas><height>14</height><portal_widget display_value="Created 2021-11-30 17:46:03">faf230df2f000110ed88d5ccf699b6e4</portal_widget><posx>0</posx><posy>0</posy><sys_class_name>sys_grid_canvas_pane</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-01 01:46:03</sys_created_on><sys_id>76f230df2f000110ed88d5ccf699b6e6</sys_id><sys_mod_count>9</sys_mod_count><sys_name>9431b85f2f000110ed88d5ccf699b6bf</sys_name><sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package><sys_policy/><sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope><sys_update_name>sys_grid_canvas_pane_76f230df2f000110ed88d5ccf699b6e6</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-01 01:59:22</sys_updated_on><width>6</width></sys_grid_canvas_pane></record_update>]]></payload>
+        <payload_hash>-1756560632</payload_hash>
+        <record_name>9431b85f2f000110ed88d5ccf699b6bf</record_name>
+        <reverted_from/>
+        <source>557a21912f000110ed88d5ccf699b6a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-01 01:59:22</sys_created_on>
+        <sys_id>710630932f400110ed88d5ccf699b6ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d73b7c1810000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-01 01:59:22</sys_updated_on>
+        <type>Grid Canvas Pane</type>
+        <update_guid>b90630939d400110cfd830099ba265ee</update_guid>
+        <update_guid_history>b90630939d400110cfd830099ba265ee:-1756560632,d74378dfd4000110a2b4e48185bf8907:360191317,6e43b4df5600011049eb361f42610e1c:-1990902728,a54374df8a000110faaa58daf49bb40b:360191317,2c43f8dfb8000110bf990021f30e9cad:1627570872,1333f8df1a00011086e332d0ec949940:432769893,f233f8dfab0001102662aca9c423bf27:1354235524,4e23b8df3b00011023f09277057b7d29:599244618,3503b4dfc00001102126148f894c1780:813834735,7af230df1800011062bb28ea36d0a8e7:-1512630431</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-01 01:59:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_grid_canvas_pane">sys_grid_canvas_pane</sys_db_object>
+        <sys_id>012b810d039047e38002482e3925d649</sys_id>
+        <sys_metadata>76f230df2f000110ed88d5ccf699b6e6</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>9431b85f2f000110ed88d5ccf699b6bf</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_scope_delete display_value="">01b663fcdd6f4dc08e125e4f852f9000</sys_scope_delete>
+        <sys_update_name>sys_grid_canvas_pane_76f230df2f000110ed88d5ccf699b6e6</sys_update_name>
+        <sys_update_version display_value="sys_grid_canvas_pane_76f230df2f000110ed88d5ccf699b6e6">710630932f400110ed88d5ccf699b6ef</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-01 01:59:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="DELETE">
+        <group_id/>
+        <report_id display_value="">389acad92f400110ed88d5ccf699b651</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-25 03:00:55</sys_created_on>
+        <sys_id>bc9acad92f400110ed88d5ccf699b651</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>389acad92f400110ed88d5ccf699b651</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_update_name>sys_report_users_groups_bc9acad92f400110ed88d5ccf699b651</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-25 03:00:55</sys_updated_on>
+        <user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id>
+    </sys_report_users_groups>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</application>
+        <file_path/>
+        <instance_id>8ac64e6bdb44b3402f68c59705961978</instance_id>
+        <instance_name>dev74744</instance_name>
+        <name>sys_report_users_groups_bc9acad92f400110ed88d5ccf699b651</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups"><sys_report_users_groups action="INSERT_OR_UPDATE"><group_id/><report_id display_value="">389acad92f400110ed88d5ccf699b651</report_id><sys_class_name>sys_report_users_groups</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-25 03:00:55</sys_created_on><sys_id>bc9acad92f400110ed88d5ccf699b651</sys_id><sys_mod_count>0</sys_mod_count><sys_name>389acad92f400110ed88d5ccf699b651</sys_name><sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package><sys_policy/><sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope><sys_update_name>sys_report_users_groups_bc9acad92f400110ed88d5ccf699b651</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-25 03:00:55</sys_updated_on><user_id display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user_id></sys_report_users_groups></record_update>]]></payload>
+        <payload_hash>-1147076737</payload_hash>
+        <record_name>389acad92f400110ed88d5ccf699b651</record_name>
+        <reverted_from/>
+        <source>557a21912f000110ed88d5ccf699b6a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-25 03:00:56</sys_created_on>
+        <sys_id>f89acad92f400110ed88d5ccf699b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d5509f6580000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-25 03:00:56</sys_updated_on>
+        <type>Report Users and Groups</type>
+        <update_guid>349acad96c400110a47a2b02f939db53</update_guid>
+        <update_guid_history>349acad96c400110a47a2b02f939db53:-1147076737</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-29 01:32:32</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_users_groups">sys_report_users_groups</sys_db_object>
+        <sys_id>ba0bf9f4b38c40c7af105167522a2621</sys_id>
+        <sys_metadata>bc9acad92f400110ed88d5ccf699b651</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>389acad92f400110ed88d5ccf699b651</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_scope_delete display_value="">01b663fcdd6f4dc08e125e4f852f9000</sys_scope_delete>
+        <sys_update_name>sys_report_users_groups_bc9acad92f400110ed88d5ccf699b651</sys_update_name>
+        <sys_update_version display_value="sys_report_users_groups_bc9acad92f400110ed88d5ccf699b651">f89acad92f400110ed88d5ccf699b653</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-29 01:32:32</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

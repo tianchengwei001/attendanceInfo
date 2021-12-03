@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
+    <sys_ui_module action="DELETE">
+        <active>true</active>
+        <application/>
+        <filter/>
+        <name>UserInfos</name>
+        <order/>
+        <path/>
+        <path_relative_to_root>false</path_relative_to_root>
+        <roles>admin</roles>
+        <sys_class_name>sys_ui_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-25 05:22:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>311be2152fc00110ed88d5ccf699b64d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UserInfos</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_update_name>sys_ui_module_311be2152fc00110ed88d5ccf699b64d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-25 05:22:58</sys_updated_on>
+        <table>x_727664_kaoqin_userinfo</table>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+    </sys_ui_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</application>
+        <file_path/>
+        <instance_id>8ac64e6bdb44b3402f68c59705961978</instance_id>
+        <instance_name>dev74744</instance_name>
+        <name>sys_ui_module_311be2152fc00110ed88d5ccf699b64d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application/><filter/><name>UserInfos</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>admin</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-25 05:22:58</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>311be2152fc00110ed88d5ccf699b64d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>UserInfos</sys_name><sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package><sys_policy/><sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope><sys_update_name>sys_ui_module_311be2152fc00110ed88d5ccf699b64d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-25 05:22:58</sys_updated_on><table>x_727664_kaoqin_userinfo</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+        <payload_hash>519056994</payload_hash>
+        <record_name>UserInfos</record_name>
+        <reverted_from/>
+        <source>557a21912f000110ed88d5ccf699b6a0</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-03 06:02:33</sys_created_on>
+        <sys_id>6bd04c802f140110ed88d5ccf699b6a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d7ee31d8e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-03 06:02:33</sys_updated_on>
+        <type>Module</type>
+        <update_guid>b51be2154cc0011079df370c6a6a0768</update_guid>
+        <update_guid_history>b51be2154cc0011079df370c6a6a0768:1865416545,b51be2154cc0011079df370c6a6a0768:1865416545</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-03 06:02:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_module">sys_ui_module</sys_db_object>
+        <sys_id>0968c0efdfa74454b1ba16ce3ea4d1e4</sys_id>
+        <sys_metadata>311be2152fc00110ed88d5ccf699b64d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UserInfos</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_scope_delete display_value="">01b663fcdd6f4dc08e125e4f852f9000</sys_scope_delete>
+        <sys_update_name>sys_ui_module_311be2152fc00110ed88d5ccf699b64d</sys_update_name>
+        <sys_update_version display_value="sys_ui_module_311be2152fc00110ed88d5ccf699b64d">6bd04c802f140110ed88d5ccf699b6a5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-03 06:02:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
