@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="attendance info" max_length="40" name="x_727664_kaoqin_attendance_info" sizeclass="5" type="collection">
+    <element label="Attendance info" max_length="40" name="x_727664_kaoqin_attendance_info" sizeclass="22" type="collection">
+        <element label="Cell" max_length="1000" name="cell" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="备注" max_length="1024" name="comment" type="string"/>
+        <element label="Company" max_length="1000" name="company" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" default="javascript:new GlideDate().getValue();" label="日期" max_length="40" name="date" type="glide_date"/>
+        <element choice="1" label="Group" max_length="1000" name="group" type="string">
+            <choice/>
+        </element>
         <element label="有与密切接触者情况" max_length="400" name="is_close_with_patient" type="string"/>
-        <element choice="1" default="Y" label="健康码是否异常" mandatory="true" max_length="40" name="is_code_abnomal" type="choice">
+        <element choice="1" default="N" label="健康码是否异常" mandatory="true" max_length="40" name="is_code_abnomal" type="choice">
             <choice>
                 <element inactive_on_update="false" label="是" sequence="0" value="Y"/>
                 <element inactive_on_update="false" label="否" sequence="1" value="N"/>
@@ -46,6 +51,7 @@
             </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Team" max_length="1000" name="team" type="string"/>
         <element label="UserEmail" max_length="40" name="useremail" type="string"/>
         <element label="姓名" max_length="64" name="usernm" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="User Id" max_length="40" name="user_id" type="string"/>

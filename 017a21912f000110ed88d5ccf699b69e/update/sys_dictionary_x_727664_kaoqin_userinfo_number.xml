@@ -1,28 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_dictionary action="INSERT_OR_UPDATE" element="number" table="x_727664_kaoqin_userinfo">
-        <active>true</active>
+        <active>false</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes>ignore_filter_on_new=true</attributes>
+        <attributes>edge_encryption_enabled=true,ignore_filter_on_new=true</attributes>
         <audit>false</audit>
-        <calculation><![CDATA[(function calculatedFieldValue(current) {
-
-	// Add your code here
-	return '';  // return the calculated value
-
-})(current);]]></calculation>
+        <calculation/>
         <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Number</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:global.getNextObjNumberPadded();</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
         <dependent_on_field/>
-        <display>false</display>
+        <display>true</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
         <dynamic_default_value/>
@@ -52,16 +47,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-25 05:23:01</sys_created_on>
-        <sys_id>1e1be2152fc00110ed88d5ccf699b6c3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_created_on>2021-12-08 00:49:41</sys_created_on>
+        <sys_id>9d3964292f100110ed88d5ccf699b679</sys_id>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Number</sys_name>
         <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
         <sys_update_name>sys_dictionary_x_727664_kaoqin_userinfo_number</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-25 05:23:01</sys_updated_on>
+        <sys_updated_on>2021-12-10 05:59:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

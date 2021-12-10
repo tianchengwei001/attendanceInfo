@@ -1,33 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="UserInfo" max_length="40" name="x_727664_kaoqin_userinfo" sizeclass="0" type="collection">
+    <element label="UserInfo" max_length="40" name="x_727664_kaoqin_userinfo" sizeclass="1" type="collection">
         <element choice="1" label="Cell" max_length="40" name="cell" type="choice">
-            <choice/>
-        </element>
-        <element choice="1" label="CellNm" max_length="40" name="cellnm" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Part1" sequence="0"/>
-                <element inactive_on_update="false" label="Part1" sequence="0"/>
-                <element inactive_on_update="false" label="Part1" sequence="1"/>
+                <element inactive_on_update="false" label="Part1" sequence="0" value="Part1"/>
+                <element inactive_on_update="false" label="Part2" sequence="1" value="Part2"/>
+                <element inactive_on_update="false" label="Part3" sequence="2" value="Part3"/>
             </choice>
         </element>
-        <element choice="1" label="Company" max_length="40" name="company" type="choice">
+        <element choice="3" default="西安" label="Company" max_length="40" name="company" type="choice">
             <choice>
-                <element inactive_on_update="false" label="beijng" value="beijng"/>
-                <element inactive_on_update="false" label="xian" value="xian"/>
+                <element inactive_on_update="false" label="北京" value="beijng"/>
             </choice>
         </element>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="系统用户" max_length="32" name="sysid" reference="sys_user" type="reference"/>
-        <element label="UserEmail" max_length="40" name="useremail" type="string"/>
-        <element label="UserId" max_length="40" name="userid" type="string"/>
-        <element label="UserNm" max_length="40" name="usernm" type="string"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Cell" max_length="40" name="u_cell" type="string">
+        <element choice="3" default="Operation Automation Group" label="Group" max_length="40" name="group" type="choice">
             <choice>
-                <element inactive_on_update="false" label="part1" sequence="0" value="part1"/>
-                <element inactive_on_update="false" label="part2" sequence="1" value="part2"/>
-                <element inactive_on_update="false" label="part3" sequence="2" value="part3"/>
+                <element inactive_on_update="false" label="Operation Support Group" sequence="1" value="Operation Support Group"/>
             </choice>
         </element>
+        <element active="false" attributes="edge_encryption_enabled=true,ignore_filter_on_new=true" display="true" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="encode_utf8=false" label="系统用户" max_length="32" name="sysid" reference="sys_user" type="reference"/>
+        <element choice="3" default="SDS CI Team" label="Team" max_length="40" name="team" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ERP Team" sequence="1" value="ERP Team"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="用户邮箱" mandatory="true" max_length="40" name="useremail" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="UserId" mandatory="true" max_length="40" name="userid" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="用户名称" max_length="40" name="usernm" type="string"/>
         <index name="index">
             <element name="sysid"/>
         </index>

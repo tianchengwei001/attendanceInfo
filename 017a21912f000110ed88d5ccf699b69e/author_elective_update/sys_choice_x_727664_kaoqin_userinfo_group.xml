@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_choice action="INSERT_OR_UPDATE" field="company" table="x_727664_kaoqin_userinfo" version="3">
+    <sys_choice action="INSERT_OR_UPDATE" field="group" table="x_727664_kaoqin_userinfo" version="3">
         <sys_choice_set action="INSERT_OR_UPDATE">
-            <element>company</element>
+            <element>group</element>
             <name>x_727664_kaoqin_userinfo</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-11-25 05:30:10</sys_created_on>
-            <sys_id>83bca2552fc00110ed88d5ccf699b6f0</sys_id>
+            <sys_created_on>2021-12-08 01:40:41</sys_created_on>
+            <sys_id>d0e474612f500110ed88d5ccf699b619</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>company</sys_name>
+            <sys_name>group</sys_name>
             <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
             <sys_policy/>
             <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
-            <sys_update_name>sys_choice_x_727664_kaoqin_userinfo_company</sys_update_name>
+            <sys_update_name>sys_choice_x_727664_kaoqin_userinfo_group</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-11-25 05:30:10</sys_updated_on>
+            <sys_updated_on>2021-12-08 01:40:41</sys_updated_on>
         </sys_choice_set>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
-            <element>company</element>
+            <element>group</element>
             <hint/>
             <inactive>false</inactive>
-            <label>北京</label>
+            <label>Operation Support Group</label>
             <language>en</language>
             <name>x_727664_kaoqin_userinfo</name>
-            <sequence/>
+            <sequence>1</sequence>
             <synonyms/>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-08 00:49:42</sys_created_on>
+            <sys_created_on>2021-12-08 01:41:22</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>e13964292f100110ed88d5ccf699b695</sys_id>
+            <sys_id>fce474612f500110ed88d5ccf699b65e</sys_id>
             <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-08 01:04:55</sys_updated_on>
-            <value>beijng</value>
+            <sys_updated_on>2021-12-08 01:41:31</sys_updated_on>
+            <value>Operation Support Group</value>
         </sys_choice>
     </sys_choice>
 </record_update>

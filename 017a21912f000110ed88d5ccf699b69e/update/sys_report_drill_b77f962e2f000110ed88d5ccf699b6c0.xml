@@ -7,7 +7,7 @@
         <apply_alias>false</apply_alias>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
-        <bar_unstack>false</bar_unstack>
+        <bar_unstack>true</bar_unstack>
         <calendar/>
         <chart_background_color/>
         <chart_border_color/>
@@ -55,7 +55,7 @@
         <group/>
         <import_table/>
         <interval>date</interval>
-        <is_published>false</is_published>
+        <is_published>true</is_published>
         <is_real_time>false</is_real_time>
         <is_scheduled>false</is_scheduled>
         <legend_align_columns>true</legend_align_columns>
@@ -78,7 +78,7 @@
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
         <report_source/>
-        <roles/>
+        <roles>public</roles>
         <row/>
         <sc_groupby_item_id/>
         <sc_groupby_variable_id/>
@@ -106,14 +106,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-29 01:44:44</sys_created_on>
         <sys_id>b77f962e2f000110ed88d5ccf699b6c0</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>每日打卡情况统计</sys_name>
         <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
         <sys_update_name>sys_report_drill_b77f962e2f000110ed88d5ccf699b6c0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-12-03 05:38:02</sys_updated_on>
+        <sys_updated_on>2021-12-10 06:32:42</sys_updated_on>
         <table>x_727664_kaoqin_attendance_info</table>
         <title>每日打卡情况统计</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
