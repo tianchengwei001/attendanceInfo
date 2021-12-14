@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2021-12-14 05:37:13</sys_created_on>
+        <sys_id>2b84ecef2fd00110ed88d5ccf699b6e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>c9846cef2fd00110ed88d5ccf699b657.x_727664_kaoqin.attendence_admin</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_security_acl display_value="c9846cef2fd00110ed88d5ccf699b657">55846cefbbd00110b18654f9c44edaa7</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_2b84ecef2fd00110ed88d5ccf699b6e6</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2021-12-14 05:37:13</sys_updated_on>
+        <sys_user_role display_value="x_727664_kaoqin.attendence_admin" name="x_727664_kaoqin.attendence_admin">9aa028f12f800110ed88d5ccf699b6dc</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

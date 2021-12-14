@@ -840,7 +840,18 @@
 }</layout>
         <macroponent_dependencies/>
         <name>Home</name>
-        <props>[ ]</props>
+        <props>[ {
+  "name" : "table",
+  "label" : "table",
+  "fieldType" : "string",
+  "typeMetadata" : null,
+  "valueType" : "string",
+  "mandatory" : false,
+  "defaultValue" : null,
+  "description" : "",
+  "readOnly" : false,
+  "selectable" : false
+} ]</props>
         <required_translations>[ {
   "message" : "Happening now",
   "comment" : ""
@@ -857,13 +868,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-12-09 08:30:02</sys_created_on>
         <sys_id>e12cd3751c540110e1fdb50d0fd6143b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Home</sys_name>
         <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
         <sys_update_name>sys_ux_macroponent_e12cd3751c540110e1fdb50d0fd6143b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-12-10 07:25:17</sys_updated_on>
+        <sys_updated_on>2021-12-14 01:50:15</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
