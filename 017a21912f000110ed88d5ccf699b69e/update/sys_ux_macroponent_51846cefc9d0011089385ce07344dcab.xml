@@ -161,8 +161,8 @@
   "isNonDestructive" : false,
   "styles" : { }
 }, {
-  "elementId" : "container_1",
-  "elementLabel" : "Container 1",
+  "elementId" : "container_7",
+  "elementLabel" : "Container 7",
   "propertyValues" : { },
   "eventMappings" : [ ],
   "slot" : "Row 2",
@@ -172,6 +172,224 @@
   },
   "overrides" : {
     "composition" : [ {
+      "elementId" : "container_1",
+      "elementLabel" : "Container 1",
+      "propertyValues" : { },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "d356d14b6e293a3020a244b63d278d8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : {
+        "composition" : [ {
+          "elementId" : "button_9",
+          "elementLabel" : "Button 9",
+          "propertyValues" : {
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "secondary"
+            },
+            "size" : {
+              "type" : "JSON_LITERAL",
+              "value" : "lg"
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "考勤统计",
+                "comment" : ""
+              }
+            },
+            "icon" : {
+              "type" : "JSON_LITERAL",
+              "value" : "chart-histogram-fill"
+            },
+            "disabled" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "tooltipContent" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Enter a label",
+                "comment" : ""
+              }
+            },
+            "configAria" : {
+              "type" : "MAP_CONTAINER",
+              "container" : { }
+            }
+          },
+          "eventMappings" : [ {
+            "eventMappingId" : "ckxiipaneccaaaaeeaaddjjiieeggzcxkggbj",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+            "sourceEventCorrelationId" : null,
+            "sourceEventDefinition" : {
+              "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : null,
+              "declarativeAction" : null,
+              "event" : {
+                "apiName" : "x_727664_kaoqin.NAV_ITEM_SELECTED_RELAY_51846cefc9d0011089385ce07344dcab",
+                "payload" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : null,
+                    "fields" : null,
+                    "params" : null,
+                    "redirect" : null,
+                    "passiveNavigation" : null,
+                    "title" : null,
+                    "multiInstField" : null,
+                    "targetRoute" : null,
+                    "external" : {
+                      "url" : "https://dev74744.service-now.com/sys_report_display.do?sysparm_report_id=635d9aea2f000110ed88d5ccf699b644"
+                    }
+                  }
+                },
+                "sysId" : "d9846cefd5d0011062f21faeac89bda3"
+              },
+              "operation" : null,
+              "targetId" : "ckxiipaneccaaaaeebbddjjiieecyidxddddgg",
+              "type" : "EVENT"
+            } ]
+          } ],
+          "slot" : "Main",
+          "definition" : {
+            "id" : "d37ce8abca89d02905fed903c8e34d8e",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "padding" : "1rem"
+          }
+        }, {
+          "elementId" : "button_10",
+          "elementLabel" : "Button 10",
+          "propertyValues" : {
+            "variant" : {
+              "type" : "JSON_LITERAL",
+              "value" : "secondary"
+            },
+            "size" : {
+              "type" : "JSON_LITERAL",
+              "value" : "lg"
+            },
+            "label" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "异常统计",
+                "comment" : ""
+              }
+            },
+            "icon" : {
+              "type" : "JSON_LITERAL",
+              "value" : "chart-pie-fill"
+            },
+            "disabled" : {
+              "type" : "JSON_LITERAL",
+              "value" : false
+            },
+            "tooltipContent" : {
+              "type" : "TRANSLATION_LITERAL",
+              "value" : {
+                "message" : "Enter a label",
+                "comment" : ""
+              }
+            },
+            "configAria" : {
+              "type" : "MAP_CONTAINER",
+              "container" : { }
+            }
+          },
+          "eventMappings" : [ {
+            "eventMappingId" : "ckxiipfpffbbaaaaeeccddjjiieetqjfzrlm",
+            "isConfiguration" : false,
+            "offRowStorageId" : null,
+            "sourceEventApiName" : "sn_button.NOW_BUTTON#CLICKED",
+            "sourceEventCorrelationId" : null,
+            "sourceEventDefinition" : {
+              "apiName" : "sn_button.NOW_BUTTON#CLICKED",
+              "id" : null,
+              "type" : "UXEVENT"
+            },
+            "sourceEventSysId" : null,
+            "targets" : [ {
+              "broker" : null,
+              "clientScript" : null,
+              "declarativeAction" : null,
+              "event" : {
+                "apiName" : "x_727664_kaoqin.NAV_ITEM_SELECTED_RELAY_51846cefc9d0011089385ce07344dcab",
+                "payload" : {
+                  "type" : "JSON_LITERAL",
+                  "value" : {
+                    "route" : null,
+                    "fields" : null,
+                    "params" : null,
+                    "redirect" : null,
+                    "passiveNavigation" : null,
+                    "title" : null,
+                    "multiInstField" : null,
+                    "targetRoute" : null,
+                    "external" : {
+                      "url" : "https://dev74744.service-now.com/sys_report_display.do?sysparm_report_id=5770fc1f2f000110ed88d5ccf699b6a1"
+                    }
+                  }
+                },
+                "sysId" : "d9846cefd5d0011062f21faeac89bda3"
+              },
+              "operation" : null,
+              "targetId" : "ckxiipfpffbbaaaaeeddddjjiieeebbgffgamb",
+              "type" : "EVENT"
+            } ]
+          } ],
+          "slot" : "Main",
+          "definition" : {
+            "id" : "d37ce8abca89d02905fed903c8e34d8e",
+            "type" : "MACROPONENT"
+          },
+          "overrides" : null,
+          "isHidden" : {
+            "type" : "JSON_LITERAL",
+            "value" : ""
+          },
+          "isNonDestructive" : false,
+          "styles" : {
+            "padding" : "1rem"
+          }
+        } ],
+        "layout" : {
+          "default" : {
+            "children" : null,
+            "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"max-width":"90rem","margin":"auto","height":"90%","display":"flex","float":"right"}}],
+            "root" : null,
+            "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+            "styles" : null,
+            "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+            "type" : "grid"
+          }
+        }
+      },
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
       "elementId" : "list_1",
       "elementLabel" : "List 1",
       "propertyValues" : {
@@ -236,7 +454,7 @@
         },
         "hideHeader" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "headerSize" : {
           "type" : "JSON_LITERAL",
@@ -484,12 +702,12 @@
     "layout" : {
       "default" : {
         "children" : null,
-        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"padding-top":"1rem","max-width":"90rem","margin":"auto","padding-bottom":"1rem","height":"90%"}}],
+        "items" : [{"slotName":"Main","rules":{"flex":"1"},"styles":{"display":"flex","flex-direction":"column"}}],
         "root" : null,
-        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "rules" : {"flex-flow":"row nowrap","align-items":"stretch","height":"100%"},
         "styles" : null,
         "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
-        "type" : "grid"
+        "type" : "flex"
       }
     }
   },
@@ -498,7 +716,9 @@
     "value" : ""
   },
   "isNonDestructive" : false,
-  "styles" : { }
+  "styles" : {
+    "width" : "100%"
+  }
 }, {
   "elementId" : "alert_1",
   "elementLabel" : "Alert 1",
@@ -2282,7 +2502,7 @@
         <layout>{
   "default" : {
     "children" : null,
-    "items" : [{"slotName":"Row 1","rules":{"grid-area":"row1"},"styles":{"width":"100%","height":"17rem","background-position":"85% 100%","background-repeat":"no-repeat","background-size":"820px 382px","background-color":"rgb(var(--now-color_grouped--blue-1))","background-image":"url(3_x_727664_kaoqin.custom_portal_banner.svg)"}},{"slotName":"Row 2","rules":{"grid-area":"row2"},"styles":{"background-color":"rgb(var(--now-color_background--secondary))"}}],
+    "items" : [{"slotName":"Row 1","rules":{"grid-area":"row1"},"styles":{"width":"100%","height":"17rem","background-position":"85% 100%","background-repeat":"no-repeat","background-size":"820px 382px","background-color":"rgb(var(--now-color_grouped--blue-1))","background-image":"url(3_x_727664_kaoqin.custom_portal_banner.svg)"}},{"slotName":"Row 2","rules":{"grid-area":"row2"},"styles":{"background-color":"rgb(var(--now-color_background--secondary))","display":"flex"}}],
     "root" : null,
     "rules" : {"grid-template-rows":"auto 1fr","grid-template-columns":"1fr","grid-template-areas":"\"row1\" \"row2\"","grid-gap":"0px","min-height":"400px","height":"100%"},
     "styles" : null,
@@ -2317,6 +2537,9 @@
   "message" : "Cancel",
   "comment" : ""
 }, {
+  "message" : "Enter a label",
+  "comment" : ""
+}, {
   "message" : "Reject",
   "comment" : ""
 }, {
@@ -2326,7 +2549,13 @@
   "message" : "Total",
   "comment" : ""
 }, {
+  "message" : "异常统计",
+  "comment" : ""
+}, {
   "message" : "考勤系统",
+  "comment" : ""
+}, {
+  "message" : "考勤统计",
   "comment" : ""
 } ]</required_translations>
         <root_component/>
@@ -2404,13 +2633,13 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-14 05:37:06</sys_created_on>
         <sys_id>51846cefc9d0011089385ce07344dcab</sys_id>
-        <sys_mod_count>42</sys_mod_count>
+        <sys_mod_count>52</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
         <sys_update_name>sys_ux_macroponent_51846cefc9d0011089385ce07344dcab</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-12-16 06:55:23</sys_updated_on>
+        <sys_updated_on>2021-12-16 08:48:48</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
