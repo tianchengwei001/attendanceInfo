@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Attendance info">2d03f2c42fe00110ed88d5ccf699b6c7</category>
+        <columns>number,attendance_id,clock_yn,comment,date,u_emp_no,user_id,week</columns>
+        <condition/>
+        <configuration display_value="Attendance System_menu_config">2d03f2c42fe00110ed88d5ccf699b6c5</configuration>
+        <group_by_column/>
+        <groups/>
+        <list_attributes/>
+        <order>50</order>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-16 05:16:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e503f2c42fe00110ed88d5ccf699b6ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_update_name>sys_ux_list_e503f2c42fe00110ed88d5ccf699b6ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-16 05:16:38</sys_updated_on>
+        <table>x_727664_kaoqin_attendance_info</table>
+        <title>All</title>
+    </sys_ux_list>
+</record_update>

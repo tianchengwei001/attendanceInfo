@@ -224,7 +224,7 @@
         },
         "hideDeclarativeActions" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "highlightedValueConfigId" : {
           "type" : "JSON_LITERAL",
@@ -232,7 +232,7 @@
         },
         "hideHighlightedValues" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "hideHeader" : {
           "type" : "JSON_LITERAL",
@@ -264,7 +264,7 @@
         },
         "hideMenuButton" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "hideListSharing" : {
           "type" : "JSON_LITERAL",
@@ -272,11 +272,11 @@
         },
         "hideFilterPanel" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "listMenuOpen" : {
           "type" : "JSON_LITERAL",
-          "value" : true
+          "value" : false
         },
         "hideQuickEdit" : {
           "type" : "JSON_LITERAL",
@@ -284,7 +284,7 @@
         },
         "hideRowSelector" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "hideColumnGrouping" : {
           "type" : "JSON_LITERAL",
@@ -312,7 +312,7 @@
         },
         "hideInlineEditing" : {
           "type" : "JSON_LITERAL",
-          "value" : false
+          "value" : true
         },
         "wordWrap" : {
           "type" : "JSON_LITERAL",
@@ -400,6 +400,34 @@
         }
       },
       "eventMappings" : [ {
+        "eventMappingId" : "ckxiiircoaaaaaaeeiiddjjiiffavccdwcddjj",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#QUERY_UPDATED",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#QUERY_UPDATED",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_727664_kaoqin.FORM_UPDATE_HEADER_RELAY_51846cefc9d0011089385ce07344dcab",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : { }
+            },
+            "sysId" : "5a367e482fe00110ed88d5ccf699b655"
+          },
+          "operation" : null,
+          "targetId" : "ckxiiircoaaaaaaeejjddjjiiffiffhhdrpfq",
+          "type" : "EVENT"
+        } ]
+      }, {
         "eventMappingId" : "ckxhhggjjxrnaaaaaarddiiiieeevffccqpoaa",
         "isConfiguration" : false,
         "offRowStorageId" : null,
@@ -1956,7 +1984,7 @@
   },
   "readEvaluationMode" : "EAGER"
 } ]</data>
-        <dispatched_events>d9846cefd5d0011062f21faeac89bda3,1d846cefd2d00110c73d4bfbb16683a3</dispatched_events>
+        <dispatched_events>5a367e482fe00110ed88d5ccf699b655,d9846cefd5d0011062f21faeac89bda3,1d846cefd2d00110c73d4bfbb16683a3</dispatched_events>
         <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
         <handled_events>9d846cef84d00110147e5f2f5431f198,1d846cef83d0011074b6e9a9cee64b98,d5846cef70d00110df924943c0c608ab,99846cef1fd001107fa648e12e522498,91846cef4ad0011034a26ef547a130ab</handled_events>
         <interactions/>
@@ -2376,13 +2404,13 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-14 05:37:06</sys_created_on>
         <sys_id>51846cefc9d0011089385ce07344dcab</sys_id>
-        <sys_mod_count>26</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
         <sys_update_name>sys_ux_macroponent_51846cefc9d0011089385ce07344dcab</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-12-15 07:22:04</sys_updated_on>
+        <sys_updated_on>2021-12-16 06:55:23</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>

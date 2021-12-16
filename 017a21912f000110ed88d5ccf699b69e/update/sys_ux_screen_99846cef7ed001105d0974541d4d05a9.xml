@@ -4,6 +4,34 @@
         <app_config display_value="Attendance Record Config">8d846cef2fd00110ed88d5ccf699b656</app_config>
         <description/>
         <event_mappings>[ {
+  "eventMappingId" : "ckxiiixsmgaaaaeegddjjiiffmccnslwfe",
+  "isConfiguration" : false,
+  "offRowStorageId" : null,
+  "sourceEventApiName" : "x_727664_kaoqin.FORM_UPDATE_HEADER_RELAY_51846cefc9d0011089385ce07344dcab",
+  "sourceEventCorrelationId" : null,
+  "sourceEventDefinition" : {
+    "apiName" : "x_727664_kaoqin.FORM_UPDATE_HEADER_RELAY_51846cefc9d0011089385ce07344dcab",
+    "id" : null,
+    "type" : "UXEVENT"
+  },
+  "sourceEventSysId" : null,
+  "targets" : [ {
+    "broker" : null,
+    "clientScript" : null,
+    "declarativeAction" : null,
+    "event" : {
+      "apiName" : "sn_canvas_core.FORM_UPDATE_HEADER",
+      "payload" : {
+        "type" : "JSON_LITERAL",
+        "value" : { }
+      },
+      "sysId" : "de3df583c720101072b211d4d8c26023"
+    },
+    "operation" : null,
+    "targetId" : "ckxiiixsmgaaaaeefddjjiiffggegghhchhpi",
+    "type" : "EVENT"
+  } ]
+}, {
   "eventMappingId" : "ckhbsbbdiidaaaaddcddhhhqllgffboti",
   "isConfiguration" : false,
   "offRowStorageId" : null,
@@ -305,7 +333,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>99846cef7ed001105d0974541d4d05a9</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Landing Page Default</sys_name>
         <sys_overrides/>
         <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
@@ -313,7 +341,7 @@
         <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
         <sys_update_name>sys_ux_screen_99846cef7ed001105d0974541d4d05a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-12-14 05:40:00</sys_updated_on>
+        <sys_updated_on>2021-12-16 05:30:40</sys_updated_on>
     </sys_ux_screen>
     <sys_translated_text action="delete_multiple" query="documentkey=99846cef7ed001105d0974541d4d05a9"/>
 </record_update>
