@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="Attendance Record Config">8d846cef2fd00110ed88d5ccf699b656</app_config>
+        <description/>
+        <fields>table,sysId,page</fields>
+        <icon/>
+        <name>useraddtest</name>
+        <optional_parameters/>
+        <order>0</order>
+        <parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent>
+        <parent_macroponent_composition_element_id/>
+        <route_type>useraddtest</route_type>
+        <screen_type display_value="useraddtest">6e9145a72f540110ed88d5ccf699b6a4</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 07:44:08</sys_created_on>
+        <sys_id>7e9145a72f540110ed88d5ccf699b6ad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>useraddtest</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_update_name>sys_ux_app_route_7e9145a72f540110ed88d5ccf699b6ad</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-14 07:46:03</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=7e9145a72f540110ed88d5ccf699b6ad"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</application>
+        <file_path/>
+        <instance_id>8ac64e6bdb44b3402f68c59705961978</instance_id>
+        <instance_name>dev74744</instance_name>
+        <name>sys_ux_app_route_7e9145a72f540110ed88d5ccf699b6ad</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="Attendance Record Config">8d846cef2fd00110ed88d5ccf699b656</app_config><description/><fields>table,sysId,page</fields><icon/><name>useraddtest</name><optional_parameters/><order>0</order><parent_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</parent_macroponent><parent_macroponent_composition_element_id/><route_type>useraddtest</route_type><screen_type display_value="useraddtest">6e9145a72f540110ed88d5ccf699b6a4</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-14 07:44:08</sys_created_on><sys_id>7e9145a72f540110ed88d5ccf699b6ad</sys_id><sys_mod_count>2</sys_mod_count><sys_name>useraddtest</sys_name><sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package><sys_policy/><sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope><sys_update_name>sys_ux_app_route_7e9145a72f540110ed88d5ccf699b6ad</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-14 07:46:03</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=7e9145a72f540110ed88d5ccf699b6ad"/></record_update>]]></payload>
+        <payload_hash>641103839</payload_hash>
+        <record_name>useraddtest</record_name>
+        <reverted_from/>
+        <source>bd1320442f940110ed88d5ccf699b6cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 07:46:03</sys_created_on>
+        <sys_id>be02cde72f540110ed88d5ccf699b6e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17db7e7d5360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-14 07:46:03</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>b602cde74654011098f0d8c64065c5e1</update_guid>
+        <update_guid_history>b602cde74654011098f0d8c64065c5e1:641103839,76d105e79354011076998dc8f09f0408:1811466930,7a9149e797540110f9b47c10e0dbc6b3:-595965205</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 08:03:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>41e01e08aef64f20ab680c2680666261</sys_id>
+        <sys_metadata>7e9145a72f540110ed88d5ccf699b6ad</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>useraddtest</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_scope_delete display_value="">01b663fcdd6f4dc08e125e4f852f9000</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_7e9145a72f540110ed88d5ccf699b6ad</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_7e9145a72f540110ed88d5ccf699b6ad">be02cde72f540110ed88d5ccf699b6e1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-14 08:03:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type">
+    <sys_ux_screen_type action="DELETE">
+        <description/>
+        <name>UserAdd</name>
+        <sys_class_name>sys_ux_screen_type</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 06:57:48</sys_created_on>
+        <sys_id>0807b4af2f140110ed88d5ccf699b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UserAdd</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_update_name>sys_ux_screen_type_0807b4af2f140110ed88d5ccf699b68c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-14 06:57:48</sys_updated_on>
+    </sys_ux_screen_type>
+    <sys_translated_text action="DELETE" query="documentkey=0807b4af2f140110ed88d5ccf699b68c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</application>
+        <file_path/>
+        <instance_id>8ac64e6bdb44b3402f68c59705961978</instance_id>
+        <instance_name>dev74744</instance_name>
+        <name>sys_ux_screen_type_0807b4af2f140110ed88d5ccf699b68c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_screen_type"><sys_ux_screen_type action="INSERT_OR_UPDATE"><description/><name>UserAdd</name><sys_class_name>sys_ux_screen_type</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-14 06:57:48</sys_created_on><sys_id>0807b4af2f140110ed88d5ccf699b68c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>UserAdd</sys_name><sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package><sys_policy/><sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope><sys_update_name>sys_ux_screen_type_0807b4af2f140110ed88d5ccf699b68c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-14 06:57:48</sys_updated_on></sys_ux_screen_type><sys_translated_text action="delete_multiple" query="documentkey=0807b4af2f140110ed88d5ccf699b68c"/></record_update>]]></payload>
+        <payload_hash>1561936897</payload_hash>
+        <record_name>UserAdd</record_name>
+        <reverted_from/>
+        <source>bd1320442f940110ed88d5ccf699b6cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 06:57:48</sys_created_on>
+        <sys_id>cc07b4af2f140110ed88d5ccf699b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17db7bba7970000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-14 06:57:48</sys_updated_on>
+        <type>UX Screen Collection</type>
+        <update_guid>0807b4af0114011071f2f0131a681c8e</update_guid>
+        <update_guid_history>0807b4af0114011071f2f0131a681c8e:1561936897</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 07:02:37</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_screen_type">sys_ux_screen_type</sys_db_object>
+        <sys_id>2a480f6d43b74922b592d577e6c02651</sys_id>
+        <sys_metadata>0807b4af2f140110ed88d5ccf699b68c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UserAdd</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_scope_delete display_value="">01b663fcdd6f4dc08e125e4f852f9000</sys_scope_delete>
+        <sys_update_name>sys_ux_screen_type_0807b4af2f140110ed88d5ccf699b68c</sys_update_name>
+        <sys_update_version display_value="sys_ux_screen_type_0807b4af2f140110ed88d5ccf699b68c">cc07b4af2f140110ed88d5ccf699b68e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-14 07:02:37</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route">
+    <sys_ux_app_route action="DELETE">
+        <app_config display_value="UserAdd Config">db302f1792100110861027e13c46a172</app_config>
+        <description/>
+        <fields/>
+        <icon>paperclip-outline</icon>
+        <name>UserAdd default Attachment</name>
+        <optional_parameters/>
+        <order>1</order>
+        <parent_macroponent display_value="Record">4807b4af2f140110ed88d5ccf699b691</parent_macroponent>
+        <parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id>
+        <route_type>attachmenttab</route_type>
+        <screen_type display_value="Attachment">747828db0f0210107d20409dc4767eb5</screen_type>
+        <sys_class_name>sys_ux_app_route</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 06:58:00</sys_created_on>
+        <sys_id>c707b0ef2f140110ed88d5ccf699b605</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UserAdd default Attachment</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_update_name>sys_ux_app_route_c707b0ef2f140110ed88d5ccf699b605</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-14 06:58:00</sys_updated_on>
+    </sys_ux_app_route>
+    <sys_translated_text action="DELETE" query="documentkey=c707b0ef2f140110ed88d5ccf699b605"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</application>
+        <file_path/>
+        <instance_id>8ac64e6bdb44b3402f68c59705961978</instance_id>
+        <instance_name>dev74744</instance_name>
+        <name>sys_ux_app_route_c707b0ef2f140110ed88d5ccf699b605</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_app_route"><sys_ux_app_route action="INSERT_OR_UPDATE"><app_config display_value="UserAdd Config">db302f1792100110861027e13c46a172</app_config><description/><fields/><icon>paperclip-outline</icon><name>UserAdd default Attachment</name><optional_parameters/><order>1</order><parent_macroponent display_value="Record">4807b4af2f140110ed88d5ccf699b691</parent_macroponent><parent_macroponent_composition_element_id>contextual_sidebar</parent_macroponent_composition_element_id><route_type>attachmenttab</route_type><screen_type display_value="Attachment">747828db0f0210107d20409dc4767eb5</screen_type><sys_class_name>sys_ux_app_route</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-12-14 06:58:00</sys_created_on><sys_id>c707b0ef2f140110ed88d5ccf699b605</sys_id><sys_mod_count>0</sys_mod_count><sys_name>UserAdd default Attachment</sys_name><sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package><sys_policy/><sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope><sys_update_name>sys_ux_app_route_c707b0ef2f140110ed88d5ccf699b605</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-12-14 06:58:00</sys_updated_on></sys_ux_app_route><sys_translated_text action="delete_multiple" query="documentkey=c707b0ef2f140110ed88d5ccf699b605"/></record_update>]]></payload>
+        <payload_hash>-286512807</payload_hash>
+        <record_name>UserAdd default Attachment</record_name>
+        <reverted_from/>
+        <source>bd1320442f940110ed88d5ccf699b6cf</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 06:58:00</sys_created_on>
+        <sys_id>c307b0ef2f140110ed88d5ccf699b607</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17db7bbd7690000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-14 06:58:00</sys_updated_on>
+        <type>UX App Route</type>
+        <update_guid>0f07b0ef4a140110ba35869bade42006</update_guid>
+        <update_guid_history>0f07b0ef4a140110ba35869bade42006:-286512807</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 07:02:36</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_app_route">sys_ux_app_route</sys_db_object>
+        <sys_id>5a711310af5e4c80b09b14dc0bb24000</sys_id>
+        <sys_metadata>c707b0ef2f140110ed88d5ccf699b605</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UserAdd default Attachment</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_scope_delete display_value="">01b663fcdd6f4dc08e125e4f852f9000</sys_scope_delete>
+        <sys_update_name>sys_ux_app_route_c707b0ef2f140110ed88d5ccf699b605</sys_update_name>
+        <sys_update_version display_value="sys_ux_app_route_c707b0ef2f140110ed88d5ccf699b605">c307b0ef2f140110ed88d5ccf699b607</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-14 07:02:36</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record">4807b4af2f140110ed88d5ccf699b691</macroponent>
+        <name>Conditionally refresh special handing notes data broker</name>
+        <required_translations/>
+        <script><![CDATA[function handler({ api, event, helpers, imports }) {
+    const { name } = event.payload;
+    const SHNDisplayed = api.state.specialHandlingNotesDisplayed;
+    const isActiveScreen = api.context.props.screen.isActive;
+    
+    //Not refresh Special Handing Notes data resource when it's displayed before or current screen is inactive
+    if (SHNDisplayed || !isActiveScreen)
+        return;
+    
+
+    if (name == 'activityLogs') {
+        const activityLogsMap = api.context.props.activityLogs;
+        if (activityLogsMap.size === 0)
+            return;
+
+        var activityEntries = Array.from(activityLogsMap.values());
+
+        //Only fetch the lastest activity entry
+        const activityEntry = activityEntries[activityEntries.length - 1];
+        const activityArray = activityEntry.activities.get('crud');
+        if (activityArray.length === 0)
+            return;
+
+        //Only fetch the lastest operation
+        const { operation } = activityArray[activityArray.length - 1];
+        if (operation === 'inserted' || operation === 'updated') {
+            api.data.get_special_handling_notes.refresh();
+        }
+    }
+
+    if (name == 'screen') {
+        const { value, previousValue} = event.payload;
+        //Refresh Special Handling Notes resource when switch focus on current screen(tab)
+        if (value.isActive && !previousValue.isActive) {
+            api.data.get_special_handling_notes.refresh();
+        }
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 06:57:49</sys_created_on>
+        <sys_id>a00730ef2f140110ed88d5ccf699b679</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Conditionally refresh special handing notes data broker</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_update_name>sys_ux_client_script_a00730ef2f140110ed88d5ccf699b679</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-14 06:57:49</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

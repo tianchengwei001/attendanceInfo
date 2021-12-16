@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_menu</name>
+        <page display_value="Attendance Record">89846cef2fd00110ed88d5ccf699b656</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 08:04:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>443689eb2f540110ed88d5ccf699b60d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_menu</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_update_name>sys_ux_page_property_443689eb2f540110ed88d5ccf699b60d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-14 08:04:09</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_727664_kaoqin.89846cef2fd00110ed88d5ccf699b656.root.chrome_menu</unique_name>
+        <value>[]</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=443689eb2f540110ed88d5ccf699b60d"/>
+</record_update>

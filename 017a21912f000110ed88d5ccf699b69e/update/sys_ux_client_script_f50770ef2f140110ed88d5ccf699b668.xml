@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="Record">4807b4af2f140110ed88d5ccf699b691</macroponent>
+        <name>Launch Special Handling Notes</name>
+        <required_translations/>
+        <script><![CDATA[function handler({
+    api,
+    helpers,
+    event,
+    imports
+}) {
+   const {
+    snHttp,
+    modal,
+    screen
+} = helpers;
+
+    var SHNOutput = api.data.get_special_handling_notes.output.data.GlideSHN_Query;
+    var showModal = SHNOutput && SHNOutput.totalMsg > 0;
+
+    if (api.state.specialHandlingNotesDisplayed)    return;
+
+    if (showModal && api.context.props.screen.isActive) {
+        api.emit('RECORD#OPEN_MODAL', {
+            "route": "shn",
+            "fields": {
+                "confs": SHNOutput,
+                "table": api.context.props.table,
+                "sysId": api.context.props.sysId
+            }
+        });
+        api.setState("specialHandlingNotesDisplayed", true);
+    }
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-12-14 06:57:55</sys_created_on>
+        <sys_id>f50770ef2f140110ed88d5ccf699b668</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Launch Special Handling Notes</sys_name>
+        <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
+        <sys_update_name>sys_ux_client_script_f50770ef2f140110ed88d5ccf699b668</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-12-14 06:57:55</sys_updated_on>
+    </sys_ux_client_script>
+</record_update>

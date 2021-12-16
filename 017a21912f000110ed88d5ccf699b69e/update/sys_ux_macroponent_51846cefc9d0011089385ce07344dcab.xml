@@ -177,7 +177,7 @@
       "propertyValues" : {
         "menuSelection" : {
           "type" : "JSON_LITERAL",
-          "value" : "Select menu to connect..."
+          "value" : null
         },
         "table" : {
           "type" : "JSON_LITERAL",
@@ -186,7 +186,7 @@
         "listTitle" : {
           "type" : "TRANSLATION_LITERAL",
           "value" : {
-            "message" : "All Active Tasks",
+            "message" : "Total",
             "comment" : ""
           }
         },
@@ -204,7 +204,7 @@
         },
         "columns" : {
           "type" : "JSON_LITERAL",
-          "value" : "user_id,usernm,date,week,is_ferver,comment,cell"
+          "value" : "usernm,date,week,is_ferver,comment,cell"
         },
         "groupByField" : {
           "type" : "JSON_LITERAL",
@@ -399,7 +399,47 @@
           "value" : ""
         }
       },
-      "eventMappings" : [ ],
+      "eventMappings" : [ {
+        "eventMappingId" : "ckxhhggjjxrnaaaaaarddiiiieeevffccqpoaa",
+        "isConfiguration" : false,
+        "offRowStorageId" : null,
+        "sourceEventApiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CREATE_NEW_RECORD",
+        "sourceEventCorrelationId" : null,
+        "sourceEventDefinition" : {
+          "apiName" : "sn_record_list_con.NOW_RECORD_LIST_CONNECTED#CREATE_NEW_RECORD",
+          "id" : null,
+          "type" : "UXEVENT"
+        },
+        "sourceEventSysId" : null,
+        "targets" : [ {
+          "broker" : null,
+          "clientScript" : null,
+          "declarativeAction" : null,
+          "event" : {
+            "apiName" : "x_727664_kaoqin.NAV_ITEM_SELECTED_RELAY_51846cefc9d0011089385ce07344dcab",
+            "payload" : {
+              "type" : "JSON_LITERAL",
+              "value" : {
+                "route" : null,
+                "fields" : null,
+                "params" : null,
+                "redirect" : null,
+                "passiveNavigation" : null,
+                "title" : null,
+                "multiInstField" : null,
+                "targetRoute" : null,
+                "external" : {
+                  "url" : "https://dev74744.service-now.com/sys_report_display.do?sysparm_report_id=635d9aea2f000110ed88d5ccf699b644"
+                }
+              }
+            },
+            "sysId" : "d9846cefd5d0011062f21faeac89bda3"
+          },
+          "operation" : null,
+          "targetId" : "ckxhhggjjxroaaaaaasddiiiieeqzddutykp",
+          "type" : "EVENT"
+        } ]
+      } ],
       "slot" : "Main",
       "definition" : {
         "id" : "66ee7d86e81f696c9f9be19d8424cc0d",
@@ -416,7 +456,7 @@
     "layout" : {
       "default" : {
         "children" : null,
-        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"padding-top":"1rem","max-width":"90rem","margin":"auto","padding-bottom":"3rem"}}],
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"padding-top":"1rem","max-width":"90rem","margin":"auto","padding-bottom":"1rem","height":"90%"}}],
         "root" : null,
         "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
         "styles" : null,
@@ -2214,7 +2254,7 @@
         <layout>{
   "default" : {
     "children" : null,
-    "items" : [{"slotName":"Row 1","rules":{"grid-area":"row1"},"styles":{"width":"100%","height":"18rem","background-position":"85% 100%","background-repeat":"no-repeat","background-size":"820px 382px","background-color":"rgb(var(--now-color_grouped--blue-1))","background-image":"url(3_x_727664_kaoqin.custom_portal_banner.svg)"}},{"slotName":"Row 2","rules":{"grid-area":"row2"},"styles":{"background-color":"rgb(var(--now-color_background--secondary))"}}],
+    "items" : [{"slotName":"Row 1","rules":{"grid-area":"row1"},"styles":{"width":"100%","height":"17rem","background-position":"85% 100%","background-repeat":"no-repeat","background-size":"820px 382px","background-color":"rgb(var(--now-color_grouped--blue-1))","background-image":"url(3_x_727664_kaoqin.custom_portal_banner.svg)"}},{"slotName":"Row 2","rules":{"grid-area":"row2"},"styles":{"background-color":"rgb(var(--now-color_background--secondary))"}}],
     "root" : null,
     "rules" : {"grid-template-rows":"auto 1fr","grid-template-columns":"1fr","grid-template-areas":"\"row1\" \"row2\"","grid-gap":"0px","min-height":"400px","height":"100%"},
     "styles" : null,
@@ -2237,9 +2277,6 @@
   "selectable" : false
 } ]</props>
         <required_translations>[ {
-  "message" : "All Active Tasks",
-  "comment" : ""
-}, {
   "message" : "Approve",
   "comment" : ""
 }, {
@@ -2256,6 +2293,9 @@
   "comment" : ""
 }, {
   "message" : "Reject request",
+  "comment" : ""
+}, {
+  "message" : "Total",
   "comment" : ""
 }, {
   "message" : "考勤系统",
@@ -2336,13 +2376,13 @@
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2021-12-14 05:37:06</sys_created_on>
         <sys_id>51846cefc9d0011089385ce07344dcab</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>26</sys_mod_count>
         <sys_name>Landing Page</sys_name>
         <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
         <sys_update_name>sys_ux_macroponent_51846cefc9d0011089385ce07344dcab</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-12-14 05:55:27</sys_updated_on>
+        <sys_updated_on>2021-12-15 07:22:04</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
