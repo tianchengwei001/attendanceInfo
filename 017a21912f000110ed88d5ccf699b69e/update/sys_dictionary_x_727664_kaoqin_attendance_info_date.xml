@@ -33,7 +33,7 @@
         <name>x_727664_kaoqin_attendance_info</name>
         <next_element/>
         <primary>false</primary>
-        <read_only>false</read_only>
+        <read_only>true</read_only>
         <read_roles/>
         <reference/>
         <reference_cascade_rule/>
@@ -49,14 +49,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-25 00:50:30</sys_created_on>
         <sys_id>5ebce1152f000110ed88d5ccf699b61e</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>日期</sys_name>
         <sys_package display_value="Attendance System" source="x_727664_kaoqin">017a21912f000110ed88d5ccf699b69e</sys_package>
         <sys_policy/>
         <sys_scope display_value="Attendance System">017a21912f000110ed88d5ccf699b69e</sys_scope>
         <sys_update_name>sys_dictionary_x_727664_kaoqin_attendance_info_date</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-12-02 10:35:55</sys_updated_on>
+        <sys_updated_on>2021-12-17 01:11:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

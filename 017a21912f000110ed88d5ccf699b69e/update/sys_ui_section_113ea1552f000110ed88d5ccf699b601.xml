@@ -4,13 +4,13 @@
             <element>usernm</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 05:27:26</sys_created_on>
-            <sys_id>15fb7f462f100110ed88d5ccf699b613</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>82b347542f200110ed88d5ccf699b674</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 05:27:26</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 05:27:26</sys_created_on>
-            <sys_id>95fb7f462f100110ed88d5ccf699b613</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>4ab347542f200110ed88d5ccf699b674</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 05:27:26</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>date</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 05:27:26</sys_created_on>
-            <sys_id>19fb7f462f100110ed88d5ccf699b613</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>cab347542f200110ed88d5ccf699b674</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 05:27:26</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.end_split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 05:27:26</sys_created_on>
-            <sys_id>99fb7f462f100110ed88d5ccf699b613</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>4eb347542f200110ed88d5ccf699b674</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 05:27:26</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>week</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 05:27:26</sys_created_on>
-            <sys_id>1dfb7f462f100110ed88d5ccf699b613</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>ceb347542f200110ed88d5ccf699b674</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 05:27:26</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>is_ferver</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 05:27:26</sys_created_on>
-            <sys_id>9dfb7f462f100110ed88d5ccf699b613</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>42b347542f200110ed88d5ccf699b675</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 05:27:26</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>is_code_abnomal</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 05:27:26</sys_created_on>
-            <sys_id>11fb7f462f100110ed88d5ccf699b614</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>c2b347542f200110ed88d5ccf699b675</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 05:27:26</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>is_out_xi_an</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 05:27:26</sys_created_on>
-            <sys_id>91fb7f462f100110ed88d5ccf699b614</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>46b347542f200110ed88d5ccf699b675</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 05:27:26</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -116,13 +116,13 @@
             <element>is_out_shanxi</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 05:27:26</sys_created_on>
-            <sys_id>15fb7f462f100110ed88d5ccf699b614</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>c6b347542f200110ed88d5ccf699b675</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 05:27:26</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -130,13 +130,13 @@
             <element>is_detected_when_return_shanxi</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 05:27:26</sys_created_on>
-            <sys_id>95fb7f462f100110ed88d5ccf699b614</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>4ab347542f200110ed88d5ccf699b675</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 05:27:26</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -144,13 +144,13 @@
             <element>is_visited_high_middle_area</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 05:27:26</sys_created_on>
-            <sys_id>19fb7f462f100110ed88d5ccf699b614</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>cab347542f200110ed88d5ccf699b675</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 05:27:26</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>is_comfirmed_diagnosis</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 05:27:26</sys_created_on>
-            <sys_id>99fb7f462f100110ed88d5ccf699b614</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>4eb347542f200110ed88d5ccf699b675</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 05:27:26</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>is_close_with_patient</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 05:27:26</sys_created_on>
-            <sys_id>1dfb7f462f100110ed88d5ccf699b614</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>ceb347542f200110ed88d5ccf699b675</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 05:27:26</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -186,13 +186,13 @@
             <element>comment</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 05:27:26</sys_created_on>
-            <sys_id>9dfb7f462f100110ed88d5ccf699b614</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>42b347542f200110ed88d5ccf699b676</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 05:27:26</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -200,27 +200,55 @@
             <element>company</element>
             <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 06:15:00</sys_created_on>
-            <sys_id>4ad604122f500110ed88d5ccf699b670</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>c2b347542f200110ed88d5ccf699b676</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 06:15:00</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>team</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>46b347542f200110ed88d5ccf699b676</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>group</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>c6b347542f200110ed88d5ccf699b676</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>cell</element>
-            <position>15</position>
+            <position>17</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2021-12-10 06:15:00</sys_created_on>
-            <sys_id>ded6c4122f500110ed88d5ccf699b6e1</sys_id>
+            <sys_created_on>2021-12-17 01:08:03</sys_created_on>
+            <sys_id>4ab347542f200110ed88d5ccf699b676</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_727664_kaoqin_attendance_info" sys_domain="global" view="Default view">113ea1552f000110ed88d5ccf699b601</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2021-12-10 06:15:00</sys_updated_on>
+            <sys_updated_on>2021-12-17 01:08:03</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
