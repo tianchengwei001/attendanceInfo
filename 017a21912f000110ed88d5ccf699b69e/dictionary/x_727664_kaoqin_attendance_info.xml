@@ -60,7 +60,12 @@
             </choice>
         </element>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Team" max_length="1000" name="team" read_only="true" type="string"/>
+        <element choice="1" label="Team" max_length="1000" name="team" read_only="true" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="ERP TEAM" value="ERP TEAM"/>
+                <element inactive_on_update="false" label="SDS CI TEAM" value="SDS CI TEAM"/>
+            </choice>
+        </element>
         <element label="UserEmail" max_length="40" name="useremail" type="string"/>
         <element label="姓名" max_length="64" name="usernm" read_only="true" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="User Id" max_length="40" name="user_id" type="string"/>
